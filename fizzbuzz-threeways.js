@@ -1,6 +1,8 @@
 /**
 * Fizzbuzz - algorithm to guage basic programming knoweledge of javascript and other languages
-* Algorithm - 
+* Algorithm - from Rosetta code: write a program that prints the integers out from 1 to 100. 
+* But for multiples of 3, print 'Fizz', and for multiples of 5 print 'Buzz';
+* For numbers that are multiples of both 3 and 5, print 'FizzBuzz'; 
 **/
 
 /**
@@ -45,3 +47,27 @@ var fizzBuzz = function () {
     console.log(output || i);//empty string is false, so we short-circuit
   }
 };
+
+
+/** Solution #3 - Using a Swith Statement
+ * I contributed to a Stack Overflow - questoin: http://stackoverflow.com/questions/26019823/javascript-fizzbuzz-switch-statement/30282327#30282327 
+**/
+
+
+var fizzBuzz3 = function() {
+  for ( var i = 0; i < 101; i++ ) {
+    switch(true) {
+      case ( !(i % 3) && !(i % 5) ):
+        console.log('FizzBuzz');
+        break;
+      case ( !(i % 3) ):
+        console.log('Fizz');
+        break;
+      case ( !(i % 5) ):
+        console.log('Buzz');
+        break;
+      default: 
+        console.log(i);
+    }
+  } 
+}
