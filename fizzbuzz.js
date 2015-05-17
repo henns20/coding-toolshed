@@ -31,7 +31,8 @@ function fizzbuzz () {
 * Shorter code and patterns details
 * 1) Use 101 vs 100 - so don't have to type the =
 * 2) !() force typing - to true vs === 0 // seen this with angular code as well
-* 3) 
+* 3) if|output+=  pattern - better takes care of the fizzbuzz scenario bs will add one or both if relevant
+* 4) console.log(output || i)  includes conditional output or type of output
 **/
 
 
