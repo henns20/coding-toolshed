@@ -1,0 +1,47 @@
+
+<div class="container-fluid">
+
+
+    <!--<div class="row">-->
+    <!--<div class="col-md-2">-->
+        <!--&lt;!&ndash; Sidebar Content &ndash;&gt;-->
+        <!--Sort by:-->
+        <!--<select ng-model="friendsList.name">-->
+            <!--<option value="name">Alphabetical</option>-->
+            <!--<option value="age">Newest</option>-->
+        <!--</select>-->
+    <!--</div>-->
+        <!--<div class="col-md-10">-->
+            <!--&lt;!&ndash; Body Content &ndash;&gt;-->
+            <!---->
+        <!--</div>-->
+    <!--</div>-->
+
+
+    <div class="row">
+        <div class="col-md-2">
+            Sidebar content
+
+            Test Search: <input ng-model="friendList.query">
+            Sort by:
+            <select ng-model="friendList.name">
+                <option value="name">Alphabetical</option>
+                <option value="id">id</option>
+            </select>
+
+        </div>
+        <div class="col-md-10">
+            <!--Body content-->
+
+            <ul class="phones">`
+                <li ng-repeat="friend in friendList.friends | filter:friendList.query | orderBy:friendList.name"
+                    class="thumbnail phone-listing">
+                    <a ng-link="FriendDetail({friendId: friend.id})" class="thumb"><img ng-src="{{friend.avatar}}"></a>
+                    <a ng-link="friendDetail({friendId: friend.id})">{{friend.name}}</a>
+                    <p>{{friend.snippet}}</p>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    </div>

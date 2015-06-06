@@ -1,0 +1,20 @@
+{
+  "name": "lodash",
+  "version": "3.9.3",
+  "main": "lodash.js",
+  "ignore": [
+    ".*",
+    "*.custom.*",
+    "*.log",
+    "*.map",
+    "*.md",
+    "lodash.app.js",
+    "components.json",
+    "package.json",
+    "doc",
+    "node_modules",
+    "perf",
+    "test",
+    "vendor"
+  ]
+}
