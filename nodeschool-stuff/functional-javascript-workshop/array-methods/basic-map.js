@@ -8,7 +8,6 @@
 function double(x) { return x * 2; };
 
 function doubleAll(numbers) {
-
   return numbers.map(double);
 }
 

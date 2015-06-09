@@ -1,6 +1,7 @@
 /**
  * Created by john on 5/31/15.
- * Autofill Input Field Server Call
+ * Autofill Input Field Server Call only after stopped typing more than 200
+ * milliseconds.
  * Task: You have Textbox and you want to make a call to the server to get some data
  * after the user has been typing and stops typing for 200 milliseconds.
  *
@@ -17,12 +18,11 @@
  */
 
 /**
- * jQuery the first solution for legacy and interview purposes
- * This is also the code that is given in the article.
- *
- * This is setting the ajax call up and does not talk about the how and what data
- * to get. So that would need to be done.
- */
+ * AngularJS - 1.4 with a controller.
+ * Key points:
+ * 1. Compared to jquery - jquery already attached to the element with this parameter.
+ * Angular it is not a property
+ **/
 
 /**
  * Angularjs
