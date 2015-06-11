@@ -2,7 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3891ebe3-9081-4c1c-9c5e-69baf9857025" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular/angular-php-mail/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/app/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular/angular-php-mail/contact-email.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular/angular-php-mail/contact-form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular/angular-php-mail/contact-form.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/db.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/db1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/db2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/generate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/app/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/app/views/main-friends-list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/app/directives/main-friends-list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/app/js/services.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/app/directives/test-directive.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular/angular-competency-test-friends/src/index.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/angular/angular-competency-test-friends/src/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/app/css/bootstrap-theme.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/angular/angular-competency-test-friends/src/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/app/css/bootstrap-theme.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/angular/angular-competency-test-friends/src/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/app/css/bootstrap-theme.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/angular/angular-competency-test-friends/src/css/bootstrap.css" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/app/css/bootstrap.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/angular/angular-competency-test-friends/src/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/app/css/bootstrap.css.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/angular/angular-competency-test-friends/src/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/app/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/angular/angular-competency-test-friends/src/css/main.css" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/app/css/main.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/angular/angular-competency-test-friends/src/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/app/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/angular/angular-competency-test-friends/src/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/app/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/angular/angular-competency-test-friends/src/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/app/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/angular/angular-competency-test-friends/src/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/app/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/angular/angular-competency-test-friends/src/js/main.js" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/app/js/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/angular/angular-competency-test-friends/src/js/vendor/bootstrap.js" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/app/js/vendor/bootstrap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/angular/angular-competency-test-friends/src/js/vendor/bootstrap.min.js" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/app/js/vendor/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/angular/angular-competency-test-friends/src/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends/app/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular/angular-competency-test-friends" afterPath="$PROJECT_DIR$/angular/angular-competency-test-friends" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="coding-toolshed.iws" />
@@ -25,7 +56,51 @@
     <favorites_list name="coding-toolshed" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="contact-email.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular/angular-php-mail/contact-email.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="870">
+              <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact-form.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular/angular-php-mail/contact-form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="510">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact-form.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular/angular-php-mail/contact-form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+              <caret line="20" column="97" selection-start-line="20" selection-start-column="97" selection-end-line="20" selection-end-column="97" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/angular/angular-php-mail/README.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2532833" vertical-offset="0" max-vertical-offset="533">
+              <caret line="9" column="90" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -38,10 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/nodeschool-stuff/basic-reduce2.js" />
-        <option value="$PROJECT_DIR$/angular/angular-competency-test/devnotes.md" />
-        <option value="$PROJECT_DIR$/angular/angular-competency-test/generate.js" />
-        <option value="$PROJECT_DIR$/angular/angular-competency-test/src/directives/test-directive.js" />
         <option value="$PROJECT_DIR$/angular/angular-competency-test/db.json" />
         <option value="$PROJECT_DIR$/angular/angular-competency-test/src/db.json" />
         <option value="$PROJECT_DIR$/angular/angular-competency-test/src/index.txt" />
@@ -89,16 +160,20 @@
         <option value="$PROJECT_DIR$/nodeschool-stuff/learnyounode-basic-node/juggling-async.js" />
         <option value="$PROJECT_DIR$/nodeschool-stuff/learnyounode-basic-node/juggling-async/juggling-async.js" />
         <option value="$PROJECT_DIR$/nodeschool-stuff/README.md" />
+        <option value="$PROJECT_DIR$/angular/angular-php-mail/contact-form.php" />
+        <option value="$PROJECT_DIR$/angular/angular-php-mail/contact-email.js" />
+        <option value="$PROJECT_DIR$/angular/angular-php-mail/contact-form.html" />
+        <option value="$PROJECT_DIR$/angular/angular-php-mail/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="42" />
     <option name="y" value="22" />
-    <option name="width" value="1086" />
+    <option name="width" value="1163" />
     <option name="height" value="706" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -125,7 +200,50 @@
     </navigator>
     <panes>
       <pane id="Scope">
-        <subPane subId="Default" />
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="coding-toolshed">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="angular">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="angular-php-mail">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="coding-toolshed">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="angular">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="coding-toolshed">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
         <subPane subId="Problems" />
         <subPane subId="Tests" />
         <subPane subId="Project Files">
@@ -249,7 +367,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="nodeschool-stuff" />
+              <option name="myItemId" value="angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding-toolshed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding-toolshed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-php-mail" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -576,6 +712,14 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -586,12 +730,14 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
       <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -599,16 +745,6 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" />
-      <option name="executablePath" />
-      <option name="filePath" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -632,14 +768,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="22" width="1086" height="706" extended-state="0" />
-    <editor active="false" />
+    <frame x="42" y="22" width="1163" height="706" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45932204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23004694" sideWeight="0.48902822" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18914185" sideWeight="0.48902822" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18685447" sideWeight="0.507837" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -647,12 +783,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282313" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282313" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36890244" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -670,9 +806,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18685447" sideWeight="0.4901316" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -695,37 +831,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nodeschool-stuff/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="345">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodeschool-stuff/learnyounode-basic-node/my-first-async-io.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="810">
-          <caret line="46" column="58" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodeschool-stuff/learnyounode-basic-node/filtered-ls.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="705">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodeschool-stuff/learnyounode-basic-node/hello-world.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="360">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nodeschool-stuff/learnyounode-basic-node/my-first-io.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="840">
@@ -923,13 +1028,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="310">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scratch.js">
@@ -996,13 +1101,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nodeschool-stuff/learnyounode-basic-node/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2840909" vertical-offset="0" max-vertical-offset="264">
           <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nodeschool-stuff/learnyounode-basic-node/my-first-async-io.js">
@@ -1041,13 +1146,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nodeschool-stuff/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5794392" vertical-offset="665" max-vertical-offset="1200">
           <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nodeschool-stuff/learnyounode-basic-node/juggling-async/juggling-async.js">
@@ -1061,6 +1166,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54448396" vertical-offset="564" max-vertical-offset="1140">
           <caret line="58" column="0" selection-start-line="58" selection-start-column="2" selection-end-line="70" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/angular-php-mail/contact-form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+          <caret line="20" column="97" selection-start-line="20" selection-start-column="97" selection-end-line="20" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/angular-php-mail/contact-email.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="870">
+          <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/angular-php-mail/contact-form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="510">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular/angular-php-mail/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2532833" vertical-offset="0" max-vertical-offset="533">
+          <caret line="9" column="90" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
+          <folding />
         </state>
       </provider>
     </entry>

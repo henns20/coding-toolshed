@@ -1,0 +1,29 @@
+<form ng-submit="submitForm()" ng-controller="MailController" novalidate>
+    <div class="row">
+        <div class="col-sm-6 col-md-6">
+            <label>Your name:</label> <br/>
+            <input class="form-control" type="text" name="name" ng-model="formData.name" ng-class="{'error' : errorName}" required />
+        </div>
+        <div class="col-sm-6 col-md-6">
+            <label>Your e-mail:</label>
+            <input class="form-control" type="email" name="email" ng-model="formData.email" ng-class="{'error' : errorEmail}" required/>
+        </div>
+    </div>
+    <!--      <div class="row">
+<div class="col-sm-12 col-md-12">
+          <label>Subject:</label>
+          <input class="form-control" type="text" name="subject" required />
+</div>
+</div> -->
+    <div class="row">
+        <div class="col-sm-12 col-md-12">
+            <label>Message:</label>
+            <textarea class="form-control" name="message" ng-class="{'error' : errorTextarea}" ng-model="formData.message" cols="30" rows="8" required></textarea>
+        </div>
+    </div>
+    <br/>
+    <div class="col-sm-12 col-md-12">
+        <input class="btn btn-primary" type="submit" value="Send" name="submit">
+    </div>
+    <div ng-class="{'submissionMessage' : submission}" ng-bind="submissionMessage"></div>
+</form>
