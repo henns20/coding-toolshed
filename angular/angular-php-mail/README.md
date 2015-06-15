@@ -1,7 +1,9 @@
 ##Angular & Php to mail a contact form
 - angular used to validate form and sent a Post request to php script
 - php a) more validation? b) stores form values and sends using mail()
+- needs subject 
 
+## source notes
 - based on this blog post 
 http://sarahcapecci.com/blog/processing-a-form-with-angularjs-php/
 - used this for the header part - or clarity on that

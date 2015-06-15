@@ -13,6 +13,11 @@ mailerApp.controller('MailController',function($scope, $http) {
   // submission message doesn't show when page loads
   $scope.submission = false;
 
+
+// not documented well below 
+// bc it was json - and php does not except json?* |jh
+// and the &ampersand. 
+
   // Updated code thanks to Yotam
   var param = function(data) {
     var returnString = '';
