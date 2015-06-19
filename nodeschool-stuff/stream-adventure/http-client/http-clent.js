@@ -4,7 +4,7 @@
  * Task: send an Http Post request to http://localhost:8099 and pipe process.stdin
  * into it. Pipe the response stream to process.stdout.
  *
- * Here is an example of how to use the `request` module to send a GET request,
+ * Here is an example of how to use the `request` module to send a POST request,
  * piping the result to stdout:
  *
  *  var request = require('request');
