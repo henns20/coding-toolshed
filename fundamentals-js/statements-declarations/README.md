@@ -1,18 +1,12 @@
+/** 
+Fundamentals jq's
+
+**/ 
 
 
-## 3 methods of FizzBuzz
-	
-	1. text variable append - ie. output variable
-			-includes: 
-				a. resetting variable to '' or null* at top of loop
-				b. forced typing the 0 modulus result - to true
-				c. console.log with a logical || op .ie output || i
+## Why and when use a switch case statment?
 
-	2. if elseif and else - traditional long
-			- includes starting with the fizzBuzz case 
-			- not using forced typing ie. using &&  and === 0 
+[stackOverflow aswer covers it well - esp dasblinkenlight](http://programmers.stackexchange.com/questions/154500/how-is-a-switch-statement-better-than-a-series-of-if-statements)
 
-	3. switch case 
-			includes
-			a. switch inside the for loop
-			b. exp is true and cases starting with the fizzBuzz like the if elseif method 
+	1. Importance of one variable: it is more descriptive - telling the reader code can branch many ways based on 1 variable.  
+	2. Compiles differently  - less cycles on the compiler - * i think i get this * but will leve it for now. ref the so. 
