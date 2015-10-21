@@ -1,6 +1,6 @@
 
 
-## 3 methods of switch
+## 3 methods of FizzBuzz
 	
 	1. text variable append - ie. output variable
 			-includes: 
