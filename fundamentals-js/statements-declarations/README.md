@@ -1,10 +1,10 @@
-/** 
-Fundamentals jq's
 
-**/ 
+## Fundamentals-js jq's
 
 
-## Why and when use a switch case statment?
+
+
+### Why and when use a switch case statment?
 
 [stackOverflow aswer covers it well - esp dasblinkenlight](http://programmers.stackexchange.com/questions/154500/how-is-a-switch-statement-better-than-a-series-of-if-statements)
 
