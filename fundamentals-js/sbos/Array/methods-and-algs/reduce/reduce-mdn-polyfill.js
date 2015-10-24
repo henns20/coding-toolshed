@@ -10,6 +10,10 @@ http://stackoverflow.com/questions/10382122/what-is-operator-in-js
 Object(this) its safety measure in a nutshell ToObject
  http://stackoverflow.com/questions/6498487/whats-the-point-of-var-t-objectthis-in-the-official-implementation-of-for
 
+logic of the while loop stack overflow 
+http://stackoverflow.com/questions/33309757/logic-behind-mdns-reduce-pollyfills-while-loop
+
+
 
 S1 pollyfill setup & safety (error checking) 
 
