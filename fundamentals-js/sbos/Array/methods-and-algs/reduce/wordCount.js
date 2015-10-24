@@ -1,6 +1,9 @@
 /* requirements: 
 1. use array method reduce on a words array
 2. List & count the # of times a word appears in the array
+
+reduce:  appies a function against an accumulator and each value of the array (left to right) to reduce it a single value. 
+
 */
 
 
@@ -16,7 +19,5 @@ var b = words.reduce(function(prev, next) {
 }, {});
 
 
-
-
-
+//both worked above
 console.log(b);
