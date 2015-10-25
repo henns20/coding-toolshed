@@ -10,12 +10,53 @@ var words = ['apple', 'apple', 'orange', 'lemon', 'berry', 'lemon'];
 // in an array -the count as the value or reduce to an object that keeps count
 // of how many time they are in an array
 
+
+
+//recusrsion reduce
+
+function recurReduce(arr) {
+  if (!arr.length) return wordMap;
+  var wordMap = {};
+  wordMap = ++wordMap[arr[0]] || 1; 
+  var tail = arr.slice(1);
+  recurReduce(tail);
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function recursionReduce(arr) {
   if (!arr.length) return wordMap;
   var wordMap = {};
   wordMap[arr[0]] = ++wordMap[arr[0]] || 1;
   var tail = arr.slice(1);
   return recursionReduce(tail);
+
+
 }
 
 function recursionReduce1(arr) {
