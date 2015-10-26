@@ -1,51 +1,42 @@
-/* to lower case 
-*/
+/**
+
+requirement: 
+
+1. use a basic recursion alg to count numbers from  1 to 10 
+2. remember i think recursion can be thought of in a for loop type of way
+
+**/
 
 
-Array.prototype.reduce = function(callback /*, initialValue*/) {
-    'use strict';
-   
-   ...
 
-    var t = this, len = t.length, k = 0, value;
-    // I understand this
-    // IF initial value provided - go to the for loop
-    if (arguments.length == 2) {
-      value = arguments[1];
-    } 
 
-    // This ELSE part is where I have the question
-    // And the overall use of the expression k in t
+function countTo(endNum, start) {
+  'use-strict';
+  console.log(endNum);  
+console.log(start);
+var i;
+i = start;
+console.log(i);
 
-    else {
-      // I get this 
-      // 
-      while (k < len && !(k in t)) {
-        k++; 
-      }
-      if (k >= len) {
-        throw new TypeError('Reduce of empty array with no initial value');
-      }
-      value = t[k++];
-    }
+  // if(!start) { 
+  //   console.log('there is a start');
+  //   var i = start;
+  //   console.log(i);
+  // } else {
+  //   console.log('there is no start');
+  // }
+  
+  // if ( endNum <= 0 ) {
+  //   console.log('Done');
+  //   return;
+  // }
+  // console.log(i);
+  // i++;
+  // countTo(endNum - 1);
+};
 
-    for (; k < len; k++) {
-      if (k in t) {
-        value = callback(value, t[k], k, t);
-      }
-    }
-    return value;
-  };
 
-//what is the else...while part of the script doing?
-// and not getting the logic of the (k in t) expression here. 
 
-  else {
-      while (k < len && !(k in t)) {
-        k++; 
-      }
-      if (k >= len) {
-        throw new TypeError('Reduce of empty array with no initial value');
-      }
-      value = t[k++];
-    }
+
+
+countTo(10,'fred');
