@@ -20,3 +20,47 @@ http://toddmotto.com/mastering-the-module-pattern/
 
 
 */
+
+
+/* try without looking at the resources to mimic the reveal pattern 
+requirements: write an example of a reveal pattern
+
+1. first to do that write the structure of a standard module pattern... no? Or, Immediately Invoked Function Execution
+
+2. Typical of a reveal is the return of an anonymous object*  - Instead of a locally scoped instantiation
+
+3. public and private methods and data are both named and written outside of the returned object. References to the the public data is made in the returned objec
+
+*/
+
+// 1 
+
+(function() {
+
+//2. 
+
+var somePrivateVariable = 4;
+var somePublicVariable = 2;
+
+function somePrivateFunction(a, b) {
+	return a + b;
+}
+
+function somePublicFunction() {
+	somePrivateFunction();
+}
+
+
+	return {
+		somePublicFunction: somePublicFunction,
+		somePublicVariable: somePublicVariable
+	}
+
+})();
+
+
+
+
+
+
+ 
