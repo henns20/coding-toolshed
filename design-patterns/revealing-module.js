@@ -12,5 +12,11 @@
 
 	2. dislike the requiremen of the Module pattern habing to switch to object literal notation for thigns he wished to make public. 
 
+Andy osmani 
+http://addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodulepatternjavascript
+
+Tod motto 
+http://toddmotto.com/mastering-the-module-pattern/
+
 
 */

@@ -1,42 +1,16 @@
-/**
+// while loo and 10 
+// recursion example countdown 10 
 
-requirement: 
-
-1. use a basic recursion alg to count numbers from  1 to 10 
-2. remember i think recursion can be thought of in a for loop type of way
-
-**/
-
-
-
-
-function countTo(endNum, start) {
+function countDown(num) { 
   'use-strict';
-  console.log(endNum);  
-console.log(start);
-var i;
-i = start;
-console.log(i);
+  if(num < 0) { 
+    console.log('done');
+    return;
+  }
+    console.log(num);
+     return countDown(num -1);
 
-  // if(!start) { 
-  //   console.log('there is a start');
-  //   var i = start;
-  //   console.log(i);
-  // } else {
-  //   console.log('there is no start');
-  // }
-  
-  // if ( endNum <= 0 ) {
-  //   console.log('Done');
-  //   return;
-  // }
-  // console.log(i);
-  // i++;
-  // countTo(endNum - 1);
-};
+}
 
 
-
-
-
-countTo(10,'fred');
+countDown(10);

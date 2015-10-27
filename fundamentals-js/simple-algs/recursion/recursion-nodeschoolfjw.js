@@ -12,16 +12,6 @@ function recurReduce(arr) {
 
 
 
-// //1st pc
-// // main parts 
-
-// IF array empty return value
-// Declare wordmap an obj
-
-// evaluate if wordmap obj has 1st array value as property. 
-// If exists add a number to that property value 
-// If it does not exist - inistatiate the array value as an wordmap obj properpty
-// and give it a value of 1.  
 
 
 function recursionReduce() {
@@ -43,5 +33,17 @@ function recursionReduce() {
 //5 uses the new array and runs through the script again. 
 //6 takes that new array and  and runs it through the same script saving the next value to the same object in the same way - if the value already exists as a property then it adds 1 to the current property value. 
 //7 
+
+
+// //1st pc
+// // main parts 
+
+// IF array empty return value
+// Declare wordmap an obj
+
+// evaluate if wordmap obj has 1st array value as property. 
+// If exists add a number to that property value 
+// If it does not exist - inistatiate the array value as an wordmap obj properpty
+// and give it a value of 1.  
 
 
