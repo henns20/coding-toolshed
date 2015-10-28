@@ -27,7 +27,7 @@ requirements: write an example of a reveal pattern
 
 1. first to do that write the structure of a standard module pattern... no? Or, Immediately Invoked Function Execution
 
-2. Typical of a reveal is the return of an anonymous object*  - Instead of a locally scoped instantiation
+2. Typical of a reveal is the return of an anonymous object*  - Instead of a locally scoped object literal 
 
 3. public and private methods and data are both named and written outside of the returned object. References to the the public data is made in the returned objec
 
