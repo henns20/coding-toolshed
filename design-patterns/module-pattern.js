@@ -43,6 +43,20 @@ Implementing modules in JS
 	...
 	return module; 
 
+6. YUI vs jQuery 
+	- YUI the namespace technique 
+	- Y.namespace( "store.basket" ) ;
+	- Y.store.basket = (function () { ... return { and write out there full public method here} }) ();  
+
+	jQuery 
+	- the example he uses is not about jQuery - it talks about the use of a library funtion and init. 
+	- not a clear example - will move on 
+	- my experience looking at jQuery is that it uses the IIFE* (returning an object) and will namespace it like var jQuery = (function(){})();
+ 
+7. Advantages and disadvantages to the module pattern: 
+	ads: lot cleaner for people from the OOP world ; supports private data - so public parts of our code are able to touch the private parts, - but the outside world is unable to touch the class's private parts. 
+	
+	diads: separation or access to privat members and public is different - for visibility?* 'so you need to make changes to each place the member was used.' 2. also can't access private members in methods that are added to the object at a later point. 3. inability to create automated unit tests for private members and additional complexity when bugs require hot fixes. Not possible to patch privates. Instead one mucst override all public methods which interact with the buggy privates. Privates can't be extended. 
 */
 
 
