@@ -11,13 +11,45 @@
 		2. var newObject = Object.create( Object.prototype );
 		3. var newObject = new Object(); 
 
-4. 4 ways to set and get key values 
+4. 4 ways to set and get key values  the 1st 2 were the way i know the dot syntax and the square bracket syntax
 	Object.defineProperty & Object.defineProperties   is a new one for me as of ECMAScript 5
+
+	3. Object.defineProperty( newObjext, "someKey", {
+		value: "for more control of the property's behavior",
+		writable: true,
+		enumerable: true,
+		configurable: true
+	});
+
+	// if the above feels a little difficult to read, a short-hhand could b wirtten as follows: 
+		var defineProp = function ( obj, key, value ) {
+			... // rest used in the below example			
+		}
 
 */
 
+
+
 var person = Object.create( Object.prototype ); 
 console.log(person); 
+
+var defineProp = function( obj, key, value ) {
+	var config = {
+		value: value, 
+		writable: true,
+		enumerable: true,
+		configurable: true
+
+	};
+	Object.defineProperty( obj, key, config );
+};
+
+defineProp( person, "car", "Delorean" );
+defineProp( person, "dateOfBirth", "1976" );
+defineProp( person, "hasBeard", true );
+console.log(person);
+defineProp( person, "name", "Jamie");
+console.log(person);
 
 
 
