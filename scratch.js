@@ -6,25 +6,21 @@ Requirements:
 4. with numbers of multiples of three and five output the word is FizzBuzz
 5. use the switch statement.
 */
+'use strict';
 
 function fizzBuzz() {
 var x, output;
-	for(x = 1;x < 101; x++) {
-	switch(true) {
-		case (!(x % 3) && !(x % 5) ):
-		console.log('FizzBuzz');
-		break;
-		case (!(x % 3)):
-		console.log('Fizz');
-		break;
-		case (!(x % 5)):
-		console.log('Buzz');
-		break;
-		default:
-		console.log(x);
-	}
 
-	}
+  for( x = 1; x < 101; x++) {
+    output = '';
+    if(!(x % 3)) output += 'Fizz';
+    if(!(x % 5)) output += 'Buzz';
+    console.log(output || x);
+
+  }
+
+  console.log('FizzBuzz script is now finished');
+
 }
 
 fizzBuzz();
