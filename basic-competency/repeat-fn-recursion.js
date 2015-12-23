@@ -21,7 +21,11 @@ function repeat(fn, num) {
   return repeat(fn, --num);
 }
 
-
+function repeat(fn, num) {
+  if (num <= 0) return;
+  fn();
+  return repeat(fn, --num)
+}
 /**
  * Alternative is the for loop
  * Good Questions - is there any advantage tot he recursion - why is it used?
