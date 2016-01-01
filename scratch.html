@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DOM  playground - select boxes that change css e</title>
+    <style>
+    .white {
+      background: #ffffff;
+    }
+    .lightgrey {
+      background: #dddddd;
+    }
+    </style>
+  </head>
+  <body class="">
+      <!-- basic dom interfacing -->
+      <!-- <select onchange="setBodyAttribute('bgColor', this.options[this.selectedIndex].value)" name="" id="">
+        <option value="white">White</option>
+        <option value="lightgrey">Gray</option>
+      </select> -->
+      <!-- dynamically change the text color with a select element -->
+      <select name="" id="" onchange="setBodyAttribute('text', this.options[this.selectedIndex].value)">
+        <option value="black">Black</option>
+        <option value="yellow">Yellow</option>
+      </select>
+      <!-- on change add a class -->
+      <select name="" id="" onchange="setBodyClass(this.options[this.selectedIndex].value)">
+        <option value="white">White</option>
+        <option value="lightgrey">Light gray</option>
+      </select>
+
+      <script>
+      function setBodyAttribute(att, value) {
+        if (document.body) document.body[att] = value;
+        else console.log("There is nobody tag.");
+      }
+      function setBodyClass(value) {
+        document.body.className = value
+      }
+      </script>
+  </body>
+</html>
