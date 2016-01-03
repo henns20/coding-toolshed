@@ -2,41 +2,44 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>DOM  playground - select boxes that change css e</title>
-    <style>
-    .white {
-      background: #ffffff;
-    }
-    .lightgrey {
-      background: #dddddd;
-    }
+    <title>Select boxes changes styles: text in background</title>
+    <style media="screen">
+      .black-background {
+        background: #000000;
+      }
+      .white-background {
+        background: #ffffff;
+      }
+      .black-text {
+        color: #000000;
+      }
+      .white-text {
+        color: #ffffff;
+      }
     </style>
   </head>
-  <body class="">
-      <!-- basic dom interfacing -->
-      <!-- <select onchange="setBodyAttribute('bgColor', this.options[this.selectedIndex].value)" name="" id="">
-        <option value="white">White</option>
-        <option value="lightgrey">Gray</option>
-      </select> -->
-      <!-- dynamically change the text color with a select element -->
-      <select name="" id="" onchange="setBodyAttribute('text', this.options[this.selectedIndex].value)">
-        <option value="black">Black</option>
-        <option value="yellow">Yellow</option>
-      </select>
-      <!-- on change add a class -->
-      <select name="" id="" onchange="setBodyClass(this.options[this.selectedIndex].value)">
-        <option value="white">White</option>
-        <option value="lightgrey">Light gray</option>
-      </select>
+  <body>
+    <p>Change background color</p>
+    <select name="" id="" onchange="setBackgroundColor(this.options[this.selectedIndex].value)">
+      <options value="white-background">White</options>
+      <options value="black-background">Black</options>
+    </select>
+    <p>Change text color</p>
+    <select name="" id="" onchange="setTextColor(this.options[this.selectedIndex].value)">
+      <options value="white-text">White</options>
+      <options value="black-text">Black</options>
+    </select>
 
-      <script>
-      function setBodyAttribute(att, value) {
-        if (document.body) document.body[att] = value;
-        else console.log("There is nobody tag.");
+    <script type="text/javascript">
+      function setBackgroundColor(value) {
+        if (document.body) document.body.className = value;
+        else console.log("There is no body element");
       }
-      function setBodyClass(value) {
-        document.body.className = value
+
+      function setTextColor(value) {
+        if (document.body) document.body.className = value;
+        else console.log("There is no body element");
       }
-      </script>
+    </script>
   </body>
 </html>
