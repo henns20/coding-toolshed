@@ -1,19 +1,20 @@
 /**
- * requirements: reduce the number arrayby getting the sum of all values
- * use recursion function
+ * the filter() method creates a new array with all elements that pass the test implemented by the
+ * provided function
+ * array.filter([, thisArgument])
+ *
+ * callBack: function to test each element of the array. Invoked with arguments (element,
+ * index, array). Return true to keep the element, false otherwise.
+
+ * Optional. Value to use as this when executing callback
  */
 
- var numberedArray  = [1, 2, 3, 4];
+ // Examples
+ // Filtering out all small values
+ // The following example uses filter() to create a filter array that has all elements with values less than 10 removed
 
- // reduced function takes the  array value, callback functionto execute on each array value, an optional initial value
-// internal recursion function takes current value, interrater
-
-
- function reduce(array, cb, initial) {
-
-   
-   (function reduce1(index, value) {
-     if(index >= array.length - 1) return value;
-     return reduce1(index + 1, cb(value, array[index], index, array));
-   })(0, initial);
+ function isBigEnough(value) {
+    return value >= 10;
  }
+var filtered = [12, 5, 8, 130, 44].filter(isBigEnough);
+//  [12, 130, 44]
