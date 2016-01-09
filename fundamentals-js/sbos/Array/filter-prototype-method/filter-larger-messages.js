@@ -24,4 +24,5 @@ function largerMessages(m) {
   return m.message.length > 10;
 }
 
-messageArray.filter(largerMessages);
+var filterMessages = messageArray.filter(largerMessages);
+console.log(filterMessages);
