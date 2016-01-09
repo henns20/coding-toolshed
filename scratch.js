@@ -1,27 +1,23 @@
-// filter method - in javascript reference; standard built-in objects; array; array.prototype.filter()
-// array.filter(callback[, thisArgument])
-//  the filter method creates a new array with all elements that pass the test implemented by the provided function
+//
 
-// requirements: using the array filter to test an array of message objects and filter out messages with the length longer than 10 characters
+var fruits = [];
+fruits.push('banana', 'apple', 'peach');
 
-var messageArray = [
-  {
-    number: 1,
-    message: "some words some words some words some words some words some words some words"
-  },
-  {
-    number: 2,
-    message: "some words"
-  },
-  {
-    number: 3,
-    message: "some "
-  }
-];
+console.log(fruits.length); // 3
 
-function largerMessages(m) {
-  console.log(m.message.length);
-  return m.message.length > 10;
-}
+fruits[5] = 'mango';
+console.log(fruits[5]); //mango
+console.log(Object.keys(fruits)); //['0', '1', '2', '5']
+console.log(fruits.length); //6
 
-messageArray.filter(largerMessages);
+// increasing the length
+
+fruits.length = 10;
+console.log(Object.keys(fruits)); // ['0', '1', '2', '5']
+console.log(fruits.length); // 10
+
+// decreasing the length property does, however, delete elements
+
+fruits.length = 2;
+console.log(Object.keys(fruits)); // ['0', '1', '2']
+console.log(fruits.length); // 2

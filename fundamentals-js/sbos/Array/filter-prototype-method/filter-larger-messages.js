@@ -26,3 +26,13 @@ function largerMessages(m) {
 
 var filterMessages = messageArray.filter(largerMessages);
 console.log(filterMessages);
+
+// nodeschool ads in the map method to create a new array with just the message not the object
+function getLongerMessages(messages) {
+  return messages.filter(largerMessages).map(function (obj) {
+    return obj.message;
+  });
+}
+
+var messagesOnly = getLongerMessages(messageArray);
+console.log(messagesOnly);
