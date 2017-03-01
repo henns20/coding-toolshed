@@ -1,14 +1,14 @@
 /**
 * Fizzbuzz - algorithm to guage basic programming knoweledge of javascript and other languages
-* Algorithm - from Rosetta code: write a program that prints the integers out from 1 to 100. 
+* Algorithm - from Rosetta code: write a program that prints the integers out from 1 to 100.
 * But for multiples of 3, print 'Fizz', and for multiples of 5 print 'Buzz';
-* For numbers that are multiples of both 3 and 5, print 'FizzBuzz'; 
+* For numbers that are multiples of both 3 and 5, print 'FizzBuzz';
 **/
 
 /**
 * Solution #1 - the if and else if
-* My first natural direction of an attempt at the solution. 
-* note: I added the use strict and the var declarations later after - seeing rosetta code - so worked but still had basice flaws. Also added the function encapsulation as a nod to the Rosetta way and best practice way to create a scipt. 
+* My first natural direction of an attempt at the solution.
+* note: I added the use strict and the var declarations later after - seeing rosetta code - so worked but still had basice flaws. Also added the function encapsulation as a nod to the Rosetta way and best practice way to create a scipt.
 **/
 
 function fizzbuzz () {
@@ -50,7 +50,7 @@ var fizzBuzz = function () {
 
 
 /** Solution #3 - Using a Swith Statement
- * I contributed to a Stack Overflow - questoin: http://stackoverflow.com/questions/26019823/javascript-fizzbuzz-switch-statement/30282327#30282327 
+ * I contributed to a Stack Overflow - questoin: http://stackoverflow.com/questions/26019823/javascript-fizzbuzz-switch-statement/30282327#30282327
 **/
 
 
@@ -66,8 +66,31 @@ var fizzBuzz3 = function() {
       case ( !(i % 5) ):
         console.log('Buzz');
         break;
-      default: 
+      default:
         console.log(i);
     }
-  } 
+  }
 }
+
+/**
+ *  Solution #4
+ *  Switch statement with appended variable (no break statement)
+ *  Better (seemingly) than above switch statement
+ */
+
+ function fizzBuzz() {
+     var output;
+     for (var i = 0; i < 101; i++) {
+         output = '';
+         switch (true) {
+             case (!(i % 3)):
+                 output += 'Fizz';
+             case (!(i % 5)):
+                 output += 'Buzz';
+             default:
+             console.log(output || i);
+         }
+     }
+ }
+
+ fizzBuzz();
